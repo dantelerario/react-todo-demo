@@ -1,8 +1,34 @@
-# React + Vite
+# React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una moderna applicazione Todo realizzata con React, Redux e TailwindCSS.
 
-Currently, two official plugins are available:
+## Tecnologie Utilizzate
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React 18.3.1
+- Redux Toolkit
+- TailwindCSS
+- React Router DOM
+- Lucide React
+
+## Funzionalità
+
+- Aggiunta, completamento e eliminazione di task
+- Interfaccia dark mode
+- Layout responsive
+- Gestione stato con Redux
+- Routing con React Router
+
+## Installazione
+
+```bash
+# Clona il repository
+git clone https://github.com/TUO-USERNAME/NOME-REPOSITORY.git
+
+# Entra nella directory
+cd NOME-REPOSITORY
+
+# Installa le dipendenze
+npm install
+
+# Avvia l'applicazione in modalità sviluppo
+npm run dev
